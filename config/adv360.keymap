@@ -39,11 +39,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp DE_CARET    &kp N1           &kp N2           &kp N3           &kp N4     &kp N5    &tog 4                                                                 &mo 6                &kp N6  &kp N7  &kp N8     &kp N9       &kp N0         &kp DE_MINUS
-&kp TAB         &kp X            &kp V            &kp L            &kp C      &kp W     &kp INSERT                                                             &kp DE_GRAVE         &kp K   &kp H   &kp G      &kp F        &kp Q          &none
-&kp DE_SHARP_S  &kp U            &kp DE_I         &kp A            &kp E      &kp O     &kp PRINTSCREEN      &kp LCTRL      &kp LALT      &kp LGUI  &kp RCTRL  &kp DE_ACUTE         &kp S   &kp N   &kp R      &kp T        &kp D          &kp DE_Y
-&kp LEFT_ALT    &kp DE_U_UMLAUT  &kp DE_O_UMLAUT  &kp DE_A_UMLAUT  &kp P      &kp DE_Z                                      &mo 2         &mo 2                                     &kp B   &kp M   &kp COMMA  &kp DOT      &kp J          &kp RIGHT_ALT
-&mo 5           &kp DELETE       &kp CAPS         &kp LEFT         &kp RIGHT            &ThumbShift 1 SPACE  &kp BACKSPACE  &mo 3         &mo 3     &kp ENTER  &ThumbShift 1 SPACE          &kp UP  &kp DOWN   &kp PAGE_UP  &kp PAGE_DOWN  &mo 5
+&kp DE_CARET    &kp N1           &kp N2           &kp N3           &kp N4     &kp N5    &tog 4                                                                &mo 6                &kp N6  &kp N7  &kp N8     &kp N9       &kp N0         &kp DE_MINUS
+&kp TAB         &kp X            &kp V            &kp L            &kp C      &kp W     &kp INSERT                                                            &kp DE_GRAVE         &kp K   &kp H   &kp G      &kp F        &kp Q          &none
+&kp DE_SHARP_S  &kp U            &kp DE_I         &kp A            &kp E      &kp O     &kp PRINTSCREEN      &kp LCTRL      &kp ESC      &kp LGUI  &kp RCTRL  &kp DE_ACUTE         &kp S   &kp N   &kp R      &kp T        &kp D          &kp DE_Y
+&kp LEFT_ALT    &kp DE_U_UMLAUT  &kp DE_O_UMLAUT  &kp DE_A_UMLAUT  &kp P      &kp DE_Z                                      &mo 2        &mo 2                                     &kp B   &kp M   &kp COMMA  &kp DOT      &kp J          &kp RIGHT_ALT
+&mo 5           &kp DELETE       &kp CAPS         &kp LEFT         &kp RIGHT            &ThumbShift 1 SPACE  &kp BACKSPACE  &mo 3        &mo 3     &kp ENTER  &ThumbShift 1 SPACE          &kp UP  &kp DOWN   &kp PAGE_UP  &kp PAGE_DOWN  &mo 5
             >;
         };
 
