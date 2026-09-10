@@ -61,11 +61,11 @@
         Neo3 {
             display-name = "3";
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &tog 5                                      &mo 6   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans  &none                                       &none   &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &none   &trans  &trans      &trans  &trans  &none   &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans   &trans   &trans
+&trans  &kp RA(NUMBER_1)  &kp RA(NUMBER_2)   &kp RA(NUMBER_3)  &kp DE_GT     &kp DE_LT     &tog 5                                      &mo 6   &kp DE_EURO   &kp DE_LBRC     &kp DE_LBKT           &kp DE_RBKT          &kp DE_RBRC  &kp DE_BACKSLASH
+&trans  &kp DE_PERIOD     &kp DE_UNDERSCORE  &kp DE_LBKT       &kp DE_RBKT   &kp DE_CARET  &none                                       &none   &kp DE_EXCL   &kp DE_LT       &kp GT                &kp DE_EQUAL         &kp DE_AMPS  &trans
+&trans  &kp DE_BACKSLASH  &kp FSLH           &kp LBRC          &kp DE_RBRC   &kp DE_ASTRK  &none   &trans  &trans      &trans  &trans  &none   &kp DE_QMARK  &kp DE_LPAR     &kp DE_RPAR           &kp DE_MINUS         &kp COLON    &kp DE_AT
+&trans  &kp DE_HASH       &kp DE_DOLLAR      &kp DE_PIPE       &kp DE_TILDE  &kp DE_GRAVE                  &trans      &trans                  &kp DE_PLUS   &kp DE_PERCENT  &kp DE_DOUBLE_QUOTES  &kp DE_SINGLE_QUOTE  &kp DE_SEMI  &trans
+&trans  &trans            &trans             &trans            &trans                      &trans  &trans  &trans      &trans  &trans  &trans                &trans          &trans                &trans               &trans       &trans
             >;
         };
 
